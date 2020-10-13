@@ -1,0 +1,14 @@
+class seating - Sarah's Restaurant 3rd floor
+
+number_of_tables = 6
+seats_per_table = 2
+is_table_available = true
+is_handy_cap_accommodating = true
+list_table_number = 3
+seating_accommodations = "please, add highchair"
+
+
+max_capacity_of_restaurant = 12
+handy_cap_availability = true, true
+restaurant_is_full = false, 1
+list_comments = 3, "please, add highchair"
