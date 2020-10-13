@@ -1,0 +1,12 @@
+class salads - Chicken Caesar Salad
+
+type_of_salad = Chicken Caesar Salad
+order_as_is = false
+number_of_orders = 2
+salad_price = 5.99
+order_comments = "Chicken on the side, please."
+
+total_price: 11.98
+list_comments: Chicken Caesar Salad, "Chicken on the side, please.
+list_order: CHICKEN CAESAR SALAD, CHICKEN CAESAR SALAD
+salad_price: Chicken Caesar Salad, 5.99
