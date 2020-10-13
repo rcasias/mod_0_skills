@@ -1,0 +1,14 @@
+class seating
+
+number_of_tables (integer)
+seats_per_table (integer)
+is_table_available (boolean)
+is_handy_cap_accommodating (boolean)
+list_table_number (integer)
+seating_accommodations (string)
+
+
+max_capacity_of_restaurant (seats_per_table * number_of_tables)
+handy_cap_availability (is_handy_cap_accommodating is is_table_available)
+restaurant_is_full (is_table_available number_of_tables)
+list_comments (list_table_number, seating_accommodations)
