@@ -1,0 +1,12 @@
+class salads
+
+type_of_salad (string)
+order_as_is (boolean)
+number_of_orders (integer)
+salad_price (float)
+order_comments (string)
+
+total_price (number_of_orders * salad_price)
+list_comments (order_as_is along with order_comments)
+list_order(all caps type_of_salad)
+salad_price (type_of_salad and salad_price)
