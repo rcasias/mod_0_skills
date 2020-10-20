@@ -1,14 +1,18 @@
-class seating
+class Seating
 
-number_of_tables (integer)
-seats_per_table (integer)
-is_table_available (boolean)
-is_handy_cap_accommodating (boolean)
-list_table_number (integer)
-seating_accommodations (string)
+number_of_two_tops (integer)
+number_of_four_tops (integer)
+is_table_one_available = (boolean)
+is_table_two_available = (boolean)
+is_table_three_available = (boolean)
+is_table_four_available = (boolean)
+is_table_five_available = (boolean)
+table_numbers (array)
+tables_with_handy_cap_accommodations (array)
 
 
-max_capacity_of_restaurant (seats_per_table * number_of_tables)
-handy_cap_availability (is_handy_cap_accommodating is is_table_available)
-restaurant_is_full (is_table_available number_of_tables)
-list_comments (list_table_number, seating_accommodations)
+list_capacity_of_third_floor ((number_of_two_tops * 2) + (number_of_four_tops * 4))
+list_handy_cap_availability (is_table_two_available + is_table_five_available + table_numbers)
+list_restaurant_availability (is_table_one_available, is_table_two_available, is_table_three_available, is_table_four_available, is_table_five_available + table_numbers)
+add_two_top (number_of_two_tops + 1)
+add_four_top (number_of_four_tops + 1)
