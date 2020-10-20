@@ -1,14 +1,19 @@
-class seating - Sarah's Restaurant 3rd floor
+class SarahsRestaurantThirdFloor
 
-number_of_tables = 6
-seats_per_table = 2
-is_table_available = true
-is_handy_cap_accommodating = true
-list_table_number = 3
-seating_accommodations = "please, add highchair"
+number_of_two_tops = 3
+number_of_four_tops = 2
+is_table_one_available = true
+is_table_two_available = true
+is_table_three_available = true
+is_table_four_available = true
+is_table_five_available = true
+table_numbers [table_one, table_two, table_three, table_four, table_five]
+tables_with_handy_cap_accommodations [table_two, table_five]
 
 
-max_capacity_of_restaurant = 12
-handy_cap_availability = true, true
-restaurant_is_full = false, 1
-list_comments = 3, "please, add highchair"
+list_capacity_of_third_floor = 14
+list_handy_cap_availability = table_two, table_five
+list_restaurant_availability = table_one, table_two, table_three, table_four, table_five
+add_two_top = 4
+add_four_top = 3
+list_capacity_of_third_floor = 20
