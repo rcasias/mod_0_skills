@@ -1,12 +1,13 @@
-class salads - Chicken Caesar Salad
+class ChickenCaesarSalad
 
-type_of_salad = Chicken Caesar Salad
-order_as_is = false
-number_of_orders = 2
-salad_price = 5.99
-order_comments = "Chicken on the side, please."
+item_name = "Chicken Caesar Salad"
+price = 5.99
+ingredients = ["Romaine Lettuce", "Caesar Dressing", "Croutons", "Parmesan", "Chicken Strips"]
+is_available = true
+comments = "please remove croutons"
 
-total_price: 11.98
-list_comments: Chicken Caesar Salad, "Chicken on the side, please.
-list_order: CHICKEN CAESAR SALAD, CHICKEN CAESAR SALAD
-salad_price: Chicken Caesar Salad, 5.99
+add_item_to_order = Chicken Caesar Salad
+show_ingredients = Romaine Lettuce, Caesar Dressing, Croutons, Parmesan, Chicken Strips
+show_item_details = Chicken Caesar Salad, 5.99, true, Romaine Lettuce, Caesar Dressing, Croutons, Parmesan, Chicken Strips
+add_tax = 6.37
+list_order_comments = please remove croutons
